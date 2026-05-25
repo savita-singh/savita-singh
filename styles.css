@@ -253,6 +253,28 @@ h2 {
     color: #666;
 }
 
+.companies {
+    text-align: center;
+    padding: 3rem 0;
+    background: #f9fafb;
+    border-radius: 1rem;
+}
+
+.company-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.company-name {
+    font-weight: 600;
+    color: #666;
+    font-size: 1.1rem;
+}
+
 .current ul {
     list-style: none;
     font-size: 1.1rem;
