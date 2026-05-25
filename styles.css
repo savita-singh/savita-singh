@@ -480,3 +480,273 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+/* Contact Form Styles */
+.contact-links {
+    display: flex;
+    gap: 2rem;
+    margin: 2rem 0;
+    flex-wrap: wrap;
+}
+
+.contact-links a {
+    color: #6366f1;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact-links a:hover {
+    text-decoration: underline;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin-top: 3rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 0.5rem;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #6366f1;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+/* Skills Page Styles */
+.skills-category {
+    margin-bottom: 3rem;
+}
+
+.skills-category h3 {
+    color: #6366f1;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.skill-item {
+    margin-bottom: 1.5rem;
+}
+
+.skill-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.skill-bar {
+    height: 8px;
+    background: #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.skill-progress {
+    height: 100%;
+    background: #6366f1;
+    transition: width 0.3s ease;
+}
+
+.tools-section {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.tools-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.tool-badge {
+    padding: 0.5rem 1rem;
+    background: #f9fafb;
+    border: 1px solid #e0e0e0;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    color: #666;
+}
+
+/* About Page Styles */
+.about-content {
+    max-width: 900px;
+    margin: 2rem 0;
+}
+
+.about-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    color: #666;
+}
+
+.education {
+    margin: 4rem 0;
+}
+
+.education-item {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.education-item:last-child {
+    border-bottom: none;
+}
+
+.education-item h3 {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.institution {
+    color: #6366f1;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.date {
+    color: #999;
+    font-size: 0.9rem;
+}
+
+.testimonials {
+    margin: 4rem 0;
+}
+
+.testimonial {
+    margin-bottom: 2rem;
+}
+
+.testimonial blockquote {
+    background: #f9fafb;
+    padding: 2rem;
+    border-left: 4px solid #6366f1;
+    margin: 0;
+}
+
+.testimonial p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.testimonial cite {
+    color: #666;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+/* Experience Page Styles */
+.experience-filters {
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0;
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    padding: 0.5rem 1.5rem;
+    border: 1px solid #e0e0e0;
+    background: white;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+    border-color: #6366f1;
+    color: #6366f1;
+}
+
+.filter-btn.active {
+    background: #6366f1;
+    color: white;
+    border-color: #6366f1;
+}
+
+.experience-list {
+    margin-top: 3rem;
+}
+
+.experience-item {
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background: #f9fafb;
+    border-left: 4px solid #6366f1;
+    border-radius: 0.5rem;
+}
+
+.experience-item h3 {
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.job-meta {
+    color: #999;
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+}
+
+.company {
+    color: #666;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.highlight {
+    color: #6366f1;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.experience-item ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.experience-item li {
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+    color: #666;
+    line-height: 1.6;
+}
+
+.experience-item li:before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #6366f1;
+    font-weight: bold;
+}
