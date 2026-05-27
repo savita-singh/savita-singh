@@ -179,7 +179,7 @@ h2 {
 
 .lens {
     padding: 2rem;
-    background: #f9fafb;
+    background: #F1E6B2;
     border-radius: 0.5rem;
 }
 
@@ -216,7 +216,7 @@ h2 {
 .case-study {
     padding: 2rem;
     border-left: 4px solid #005035;
-    background: #f9fafb;
+    background: #F1E6B2;
 }
 
 .case-label {
@@ -268,7 +268,7 @@ h2 {
 .companies {
     text-align: center;
     padding: 3rem 0;
-    background: #f9fafb;
+    background: #F1E6B2;
     border-radius: 1rem;
 }
 
@@ -308,7 +308,7 @@ h2 {
 .cta {
     text-align: center;
     padding: 4rem 2rem;
-    background: #f9fafb;
+    background: #F1E6B2;
     border-radius: 1rem;
 }
 
@@ -479,7 +479,7 @@ footer {
 
 .skills-section li {
     padding: 0.5rem;
-    background: #f9fafb;
+    background: #F1E6B2;
     border-radius: 0.25rem;
 }
 
@@ -597,11 +597,11 @@ footer {
 
 .tool-badge {
     padding: 0.5rem 1rem;
-    background: #f9fafb;
-    border: 1px solid #e0e0e0;
+    background: #F1E6B2;
+    border: 1px solid #A49665;
     border-radius: 0.5rem;
     font-weight: 600;
-    color: #666;
+    color: #005035;
 }
 
 /* About Page Styles */
@@ -656,7 +656,7 @@ footer {
 }
 
 .testimonial blockquote {
-    background: #f9fafb;
+    background: #F1E6B2;
     padding: 2rem;
     border-left: 4px solid #005035;
     margin: 0;
@@ -713,7 +713,7 @@ footer {
 .experience-item {
     margin-bottom: 3rem;
     padding: 2rem;
-    background: #f9fafb;
+    background: #F1E6B2;
     border-left: 4px solid #005035;
     border-radius: 0.5rem;
 }
